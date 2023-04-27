@@ -12,6 +12,7 @@ namespace DataAccess.Concrete.EntityFramework
 {
     public class EfProductDal : IProductDal
     {
+        //
         public void Add(Product entity)
         {
             using (NorthwindContext context = new NorthwindContext())
